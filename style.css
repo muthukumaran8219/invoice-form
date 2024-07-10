@@ -1,0 +1,171 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#form{
+    display: flex;
+    grid-template-columns: auto;
+    width: 98%;
+    height: 200px;
+    background-color: cadetblue ;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#heading{
+    background-color: cadetblue ;
+
+}
+#heading h2{
+    margin-left: 45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+#div1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#div2{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#div3{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#form h3{
+    margin-left: 50%;
+}
+.input{
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: cyan;
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div1, #div2, #div3 {
+    width: 25%;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* border: none; */
+    border-color: lightseagreen;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+#div1{
+    margin-left: 15px;
+}
+#div3{
+    margin-right: 15px;
+}
+#gender{
+    display: flex;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#productTable {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+#productTable th, #productTable td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#productTable th {
+    background-color: aqua;
+}
+
+#productTable input[type="number"] {
+    width: 50px;
+}
+
+#productTable button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#productTable button:hover {
+    background-color: #d32f2f;
+}
+#btn3{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#btn3 .btn4{
+    background-color: gray;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+#b1{
+    margin-left: 50px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+#b2{
+    margin-left: 10px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
